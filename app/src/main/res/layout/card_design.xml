@@ -24,6 +24,7 @@
             android:layout_height="wrap_content"
             android:textSize="18sp"
             android:text="TextView"
+            android:fontFamily="@font/aclonica"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

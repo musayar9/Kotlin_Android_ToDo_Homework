@@ -36,6 +36,9 @@
         android:name="com.example.todoapp_homework.ui.screens.UpdateScreen"
         android:label="update_screen"
         tools:layout="@layout/update_screen" >
+        <action android:id="@+id/toMainScreen"
+            app:destination="@+id/mainScreen"
+            />
         <argument android:name="toDo" app:argType="com.example.todoapp_homework.data.entity.ToDoEntity"/>
 
     </fragment>

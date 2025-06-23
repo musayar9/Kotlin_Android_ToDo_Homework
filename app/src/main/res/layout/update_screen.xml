@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:fontFamily="@font/alex_brush"
+            android:fontFamily="@font/aclonica"
             android:text="@string/update_screen"
             android:textColor="@color/textColor1"
             android:textSize="26sp" />
@@ -63,7 +63,7 @@
             android:id="@+id/editUpdateTextName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/alex_brush"
+            android:fontFamily="@font/aclonica"
 
             android:hint="Update ToDo"
             android:lineSpacingExtra="8dp"
@@ -81,7 +81,7 @@
         android:text="@string/update_todo"
         android:backgroundTint="@color/mainColor"
         app:layout_constraintEnd_toEndOf="parent"
-        android:fontFamily="@font/alex_brush"
+        android:fontFamily="@font/aclonica"
         android:textSize="18dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textUpdateInputLayout"
