@@ -46,7 +46,6 @@ class UpdateScreen : Fragment() {
                 Toast.makeText(requireContext(), "Todo Güncellendi", Toast.LENGTH_SHORT).show()
             }else{
                 Toast.makeText(requireContext(), "Text alanı boş bırakılamaz", Toast.LENGTH_SHORT).show()
-
             }
 
         }
