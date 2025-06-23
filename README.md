@@ -68,12 +68,9 @@ Aşağıda ekran görüntüleri için bir yer tutucu bulunmaktadır. Uygulamanı
 
 
 ## Katkıda Bulunma
-Katkılarınızı memnuniyetle karşılıyoruz! Lütfen şu adımları izleyin:
+ Lütfen şu adımları izleyin:
 1. Depoyu fork edin.
 2. Yeni bir dal oluşturun (`git checkout -b ozellik/yeni-ozellik`).
 3. Değişikliklerinizi commit edin (`git commit -m 'Yeni özellik eklendi'`).
 4. Dalı push edin (`git push origin ozellik/yeni-ozellik`).
 5. Bir Pull Request açın.
-
-## Lisans
-Bu proje MIT Lisansı altında lisanslanmıştır - detaylar için [LICENSE](LICENSE) dosyasına bakın.
