@@ -11,7 +11,8 @@ import com.example.todoapp_homework.ui.screens.MainScreenDirections
 import com.example.todoapp_homework.ui.viewmodel.MainViewModel
 import com.google.android.material.snackbar.Snackbar
 
-class ToDoAdapter(var mContext:Context, var toDoList:List<ToDoEntity>, var viewModel: MainViewModel):RecyclerView.Adapter<ToDoAdapter.CardHolder>() {
+class ToDoAdapter(var mContext:Context, var toDoList:List<ToDoEntity>, var viewModel:MainViewModel)
+    :RecyclerView.Adapter<ToDoAdapter.CardHolder>() {
 
 
     inner class CardHolder(var binding: CardDesignBinding):RecyclerView.ViewHolder(binding.root)
@@ -27,7 +28,7 @@ class ToDoAdapter(var mContext:Context, var toDoList:List<ToDoEntity>, var viewM
     override fun onBindViewHolder(holder: CardHolder, position: Int) {
        val toDoApp = toDoList.get(position)
         val toDoDesign = holder.binding
-        toDoDesign.textView.text = toDoApp.name
+        toDoDesign.textView.text = toDoApp.name.toString()
         toDoDesign.toDoContent.setOnClickListener{
             val toUpdateScreen = MainScreenDirections.toUpdateScreen(toDo = toDoApp)
             it.findNavController().navigate(toUpdateScreen)

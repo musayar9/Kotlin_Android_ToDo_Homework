@@ -1,8 +1,11 @@
 package com.example.todoapp_homework.di
 
+import android.content.Context
+import androidx.room.Room
 import com.example.todoapp_homework.data.datasource.ToDoDataSource
 import com.example.todoapp_homework.data.repo.ToDoRepo
 import com.example.todoapp_homework.room.ToDoDao
+import com.example.todoapp_homework.room.ToDoDatabase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -32,11 +35,14 @@ class AppModule {
         return ToDoDataSource(toDoDao)
     }
 
-//    @Provides
-//    @Singleton
-//    fun provideToDoDao(@ApplicationContext context:Context):ToDoDao{
-//
-//    }
+    @Provides
+    @Singleton
+    fun provideToDoDao(@ApplicationContext context:Context):ToDoDao{
+        val db = Room.databaseBuilder(context, ToDoDatabase::class.java, "todo_app.sqlite")
+            .createFromAsset("todo_app.sqlite")
+            .build()
+        return db.getToDoDao()
+    }
 
 
 }

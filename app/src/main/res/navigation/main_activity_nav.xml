@@ -10,6 +10,7 @@
         android:name="com.example.todoapp_homework.ui.screens.MainScreen"
         android:label="main_screen"
         tools:layout="@layout/main_screen" >
+
         <action
             android:id="@+id/toSaveScreen"
             app:destination="@+id/saveScreen"
@@ -24,7 +25,12 @@
         android:id="@+id/saveScreen"
         android:name="com.example.todoapp_homework.ui.screens.SaveScreen"
         android:label="save_screen"
-        tools:layout="@layout/save_screen" />
+        tools:layout="@layout/save_screen" >
+        <action android:id="@+id/toMainScreen"
+            app:destination="@+id/mainScreen"
+            />
+
+    </fragment>
     <fragment
         android:id="@+id/updateScreen"
         android:name="com.example.todoapp_homework.ui.screens.UpdateScreen"

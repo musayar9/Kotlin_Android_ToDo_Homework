@@ -11,6 +11,8 @@ import com.example.todoapp_homework.data.entity.ToDoEntity
 
 interface ToDoDao {
 
+    // veritabanına erişim sağlayabileceğimiz final kodlar burada olacak.
+
     // veri çekme işlemleri
     @Query("SELECT * FROM toDo")
     suspend fun loadTodoData():List<ToDoEntity>

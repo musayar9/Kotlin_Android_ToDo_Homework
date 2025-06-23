@@ -6,6 +6,7 @@ import com.example.todoapp_homework.data.entity.ToDoEntity
 
 
 // veri tabanını temsil eder.
+// burada veri tabanundaki tabloları tanımlıyoruz
 @Database(entities = [ToDoEntity::class], version = 1)
 abstract class ToDoDatabase:RoomDatabase() {
     abstract fun getToDoDao():ToDoDao

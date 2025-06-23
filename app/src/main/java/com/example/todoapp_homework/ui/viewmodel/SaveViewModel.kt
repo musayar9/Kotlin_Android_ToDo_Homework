@@ -1,4 +1,19 @@
 package com.example.todoapp_homework.ui.viewmodel
 
-class SaveViewModel {
+import androidx.lifecycle.ViewModel
+import com.example.todoapp_homework.data.repo.ToDoRepo
+import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import javax.inject.Inject
+
+@HiltViewModel
+class SaveViewModel @Inject constructor(var toDoRepo: ToDoRepo):ViewModel() {
+
+    fun saveToDo(name:String){
+        CoroutineScope(Dispatchers.Main).launch {
+            toDoRepo.saveToDo(name)
+        }
+    }
 }

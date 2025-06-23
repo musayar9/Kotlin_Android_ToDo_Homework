@@ -36,6 +36,7 @@ class MainViewModel @Inject constructor(var toDoRepo: ToDoRepo):ViewModel() {
         fun delete(id:Int){
             CoroutineScope(Dispatchers.Main).launch {
                 toDoRepo.deleteToDo(id)
+                loadTodoData()
             }
         }
 
