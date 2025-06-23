@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ToDoApp_Homework" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+
+
+<!--        Status Bar-->
+        <item name="android:statusBarColor">@color/mainColor</item>
+        <item name="android:toolbarStyle">@color/mainColor</item>
+    </style>
+
+    <style name="Theme.ToDoApp_Homework" parent="Base.Theme.ToDoApp_Homework" />
+</resources>

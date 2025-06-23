@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ToDoApp_Homework</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="save_screen">Save Screen</string>
+    <string name="update_screen">Update Screen</string>
+    <string name="search">Search</string>
+    <string name="save_btn">Save</string>
+    <string name="update_todo">Update ToDo</string>
+</resources>
