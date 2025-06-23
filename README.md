@@ -53,10 +53,18 @@ Uygulama aşağıdaki ekranlardan oluşur:
 
 ## Ekran Görüntüleri
 Aşağıda ekran görüntüleri için bir yer tutucu bulunmaktadır. Uygulamanın ekran görüntülerini buraya eklemek için görselleri depoya yükleyip bağlantılarını güncelleyebilirsiniz.
-
-![Main Screen](app/src/screenshots/mainscreen.png)
-![Görev Ekle Ekranı](app/src/screenshots/savescreen.png)
-![Görev Güncelle Ekranı](app/src/screenshots/updatescreen.png)
+<table>
+  <tr>
+    <td><img src="app/src/screenshots/mainscreen.png" alt="Main Screen" width="200"/></td>
+    <td><img src="app/src/screenshots/savescreen.png" alt="Save Screen" width="200"/></td>
+    <td><img src="app/src/screenshots/updatescreen.png" alt="Update Screen" width="200"/></td>
+  </tr>
+  <tr>
+    <td align="center">Main Screen</td>
+    <td align="center">Save Screen</td>
+    <td align="center">Update Screen</td>
+  </tr>
+</table>
 
 
 ## Katkıda Bulunma
