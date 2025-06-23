@@ -67,10 +67,17 @@ Aşağıda ekran görüntüleri için bir yer tutucu bulunmaktadır. Uygulamanı
 </table>
 
 
-## Katkıda Bulunma
- Lütfen şu adımları izleyin:
+## 📬 Katkıda Bulunmak İster misin?
+
+Pull request'lere ve geri bildirimlere açığız.
+Lütfen şu adımları izleyin:
 1. Depoyu fork edin.
 2. Yeni bir dal oluşturun (`git checkout -b ozellik/yeni-ozellik`).
 3. Değişikliklerinizi commit edin (`git commit -m 'Yeni özellik eklendi'`).
 4. Dalı push edin (`git push origin ozellik/yeni-ozellik`).
 5. Bir Pull Request açın.
+
+> 
+---
+
+İletişim: \[[musasayar67@gmail.com](mailto:musasayar67@gmail.com)]
